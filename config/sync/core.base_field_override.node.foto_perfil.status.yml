@@ -1,0 +1,22 @@
+uuid: 7d66a6e8-af2d-4cff-bfa4-4cf8b8d5dfc7
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.foto_perfil
+id: node.foto_perfil.status
+field_name: status
+entity_type: node
+bundle: foto_perfil
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

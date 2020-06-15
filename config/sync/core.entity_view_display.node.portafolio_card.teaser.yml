@@ -1,0 +1,26 @@
+uuid: a49e3619-7e00-4b2d-85d1-d87f2fd8a33e
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.portafolio_card.field_descripcion_del_trabajo
+    - field.field.node.portafolio_card.field_imagen_
+    - field.field.node.portafolio_card.field_titulo
+    - node.type.portafolio_card
+  module:
+    - user
+id: node.portafolio_card.teaser
+targetEntityType: node
+bundle: portafolio_card
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_descripcion_del_trabajo: true
+  field_imagen_: true
+  field_titulo: true

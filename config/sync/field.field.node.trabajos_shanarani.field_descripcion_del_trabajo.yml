@@ -1,0 +1,21 @@
+uuid: 31acb9bd-65cc-41a2-8106-f7e10ba80902
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_descripcion_del_trabajo
+    - node.type.trabajos_shanarani
+  module:
+    - text
+id: node.trabajos_shanarani.field_descripcion_del_trabajo
+field_name: field_descripcion_del_trabajo
+entity_type: node
+bundle: trabajos_shanarani
+label: 'Descripcion del trabajo'
+description: 'Descripción del trabajo realizado'
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,0 +1,17 @@
+uuid: 876fec8e-bbc8-493f-b1c7-c9cbe0749860
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Trabajos Brisas de Oro'
+type: trabajos_brisas_de_oro
+description: 'Trabajos realizados para la Pyme Brisas de Oro'
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

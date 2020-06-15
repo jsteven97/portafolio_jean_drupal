@@ -1,0 +1,30 @@
+uuid: 5dfcdfc2-2a7d-4bc1-8f9d-5ffe67d1f103
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.habilidades_diseno
+  module:
+    - system
+    - views
+  theme:
+    - businessgroup_zymphonies_theme
+id: views_block__habilidades_diseno_block_1
+theme: businessgroup_zymphonies_theme
+region: sidebar_second
+weight: -11
+provider: null
+plugin: 'views_block:habilidades_diseno-block_1'
+settings:
+  id: 'views_block:habilidades_diseno-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility:
+  request_path:
+    id: request_path
+    pages: '<front>'
+    negate: false
+    context_mapping: {  }

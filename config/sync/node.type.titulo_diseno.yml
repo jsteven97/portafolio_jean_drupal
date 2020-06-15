@@ -1,0 +1,17 @@
+uuid: 2313e2dd-a15f-4396-9e71-3fa11772f416
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Titulo Diseño'
+type: titulo_diseno
+description: Diseño
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

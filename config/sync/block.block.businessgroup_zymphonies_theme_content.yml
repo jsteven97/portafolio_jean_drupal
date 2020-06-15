@@ -1,0 +1,22 @@
+uuid: aa7cc788-69b3-4db3-9d84-d6f9a49d06cf
+langcode: en
+status: true
+dependencies:
+  module:
+    - system
+  theme:
+    - businessgroup_zymphonies_theme
+_core:
+  default_config_hash: 4FmCnyx7RQxbOJjd-lp4lqMbNm_2X2SPRiZ2j-qIM0g
+id: businessgroup_zymphonies_theme_content
+theme: businessgroup_zymphonies_theme
+region: content
+weight: 1
+provider: null
+plugin: system_main_block
+settings:
+  id: system_main_block
+  label: 'Main page content'
+  provider: system
+  label_display: '0'
+visibility: {  }

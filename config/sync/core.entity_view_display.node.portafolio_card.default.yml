@@ -1,0 +1,48 @@
+uuid: 52726e07-9c5e-4bca-9870-0e2c6d6e60aa
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.portafolio_card.field_descripcion_del_trabajo
+    - field.field.node.portafolio_card.field_imagen_
+    - field.field.node.portafolio_card.field_titulo
+    - image.style.large
+    - node.type.portafolio_card
+  module:
+    - image
+    - text
+    - user
+id: node.portafolio_card.default
+targetEntityType: node
+bundle: portafolio_card
+mode: default
+content:
+  field_descripcion_del_trabajo:
+    weight: 3
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_imagen_:
+    weight: 2
+    label: above
+    settings:
+      image_style: large
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_titulo:
+    weight: 1
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  links:
+    weight: 0
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

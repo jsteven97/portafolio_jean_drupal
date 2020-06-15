@@ -1,0 +1,15 @@
+uuid: d496e3ab-0c56-44c6-9c5b-487670db1ed0
+langcode: en
+status: true
+dependencies: {  }
+name: sitios_web_style
+label: 'sitios web style'
+effects:
+  d547b35d-9c48-444f-984a-48931aa74a28:
+    uuid: d547b35d-9c48-444f-984a-48931aa74a28
+    id: image_scale
+    weight: 1
+    data:
+      width: 300
+      height: 350
+      upscale: true

@@ -1,0 +1,24 @@
+uuid: 2a8d88e7-ba22-40bf-b814-f372b6e7a6e8
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.habilidades.field_habilidades_diseno
+    - field.field.node.habilidades.field_habilidades_progra
+    - node.type.habilidades
+  module:
+    - user
+id: node.habilidades.teaser
+targetEntityType: node
+bundle: habilidades
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_habilidades_diseno: true
+  field_habilidades_progra: true

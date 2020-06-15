@@ -1,0 +1,24 @@
+uuid: d4d94b7f-f016-4dc2-a503-54d5ea0141ab
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.trabajos_brisas_de_oro
+  module:
+    - views
+  theme:
+    - bootstrap_mint
+id: views_block__trabajos_brisas_de_oro_block_1
+theme: bootstrap_mint
+region: topwidget_right
+weight: 0
+provider: null
+plugin: 'views_block:trabajos_brisas_de_oro-block_1'
+settings:
+  id: 'views_block:trabajos_brisas_de_oro-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

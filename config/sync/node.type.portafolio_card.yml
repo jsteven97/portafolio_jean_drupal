@@ -1,0 +1,18 @@
+uuid: 3a871061-c6ec-4224-a465-3221d6628a12
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus:
+      - main
+    parent: 'main:'
+name: 'Trabajos Sysi'
+type: portafolio_card
+description: 'Este es el contenido referente a las cards que corresponden al portafolio'
+help: ''
+new_revision: true
+preview_mode: 1
+display_submitted: false

@@ -1,0 +1,24 @@
+uuid: 4c7ea8a4-1fb8-4d08-bc8d-a8bc7073220e
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.trabajos_brisas_de_oro
+  module:
+    - views
+  theme:
+    - businessgroup_zymphonies_theme
+id: views_block__trabajos_brisas_de_oro_block_1_2
+theme: businessgroup_zymphonies_theme
+region: bottom_forth
+weight: -9
+provider: null
+plugin: 'views_block:trabajos_brisas_de_oro-block_1'
+settings:
+  id: 'views_block:trabajos_brisas_de_oro-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

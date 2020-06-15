@@ -1,0 +1,26 @@
+uuid: 4bb70d39-a28b-44d9-8f2c-e87ad4e06420
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.sitios_web.field_descripcion_del_trabajo
+    - field.field.node.sitios_web.field_imagen_
+    - field.field.node.sitios_web.field_titulo
+    - node.type.sitios_web
+  module:
+    - user
+id: node.sitios_web.teaser
+targetEntityType: node
+bundle: sitios_web
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_descripcion_del_trabajo: true
+  field_imagen_: true
+  field_titulo: true

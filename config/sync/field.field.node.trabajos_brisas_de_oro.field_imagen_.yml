@@ -1,0 +1,38 @@
+uuid: f19955ec-fc70-4981-81ac-e2bf6d6cc337
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_imagen_
+    - node.type.trabajos_brisas_de_oro
+  module:
+    - image
+id: node.trabajos_brisas_de_oro.field_imagen_
+field_name: field_imagen_
+entity_type: node
+bundle: trabajos_brisas_de_oro
+label: imagen_card
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  file_directory: '[date:custom:Y]-[date:custom:m]'
+  file_extensions: 'png gif jpg jpeg'
+  max_filesize: 50MB
+  max_resolution: ''
+  min_resolution: ''
+  alt_field: true
+  alt_field_required: true
+  title_field: false
+  title_field_required: false
+  default_image:
+    uuid: ''
+    alt: ''
+    title: ''
+    width: null
+    height: null
+  handler: 'default:file'
+  handler_settings: {  }
+field_type: image

@@ -1,0 +1,24 @@
+uuid: c76310d4-89b4-471d-8e3d-0be4777ce586
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.informacion_block
+  module:
+    - views
+  theme:
+    - bootstrap_mint
+id: views_block__informacion_block_block_1
+theme: bootstrap_mint
+region: slideshow
+weight: -6
+provider: null
+plugin: 'views_block:informacion_block-block_1'
+settings:
+  id: 'views_block:informacion_block-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

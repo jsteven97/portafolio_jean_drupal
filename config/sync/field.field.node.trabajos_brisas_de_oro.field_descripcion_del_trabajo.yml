@@ -1,0 +1,21 @@
+uuid: f6b61e26-1c1a-4a2b-a0ae-f1b2a5221ee4
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_descripcion_del_trabajo
+    - node.type.trabajos_brisas_de_oro
+  module:
+    - text
+id: node.trabajos_brisas_de_oro.field_descripcion_del_trabajo
+field_name: field_descripcion_del_trabajo
+entity_type: node
+bundle: trabajos_brisas_de_oro
+label: 'Descripcion del trabajo'
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

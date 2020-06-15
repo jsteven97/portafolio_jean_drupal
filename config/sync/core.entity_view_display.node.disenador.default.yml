@@ -1,0 +1,28 @@
+uuid: 1cfe7b93-64c3-4141-ae65-4224d9368e37
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.disenador.body
+    - node.type.disenador
+  module:
+    - text
+    - user
+id: node.disenador.default
+targetEntityType: node
+bundle: disenador
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

@@ -1,0 +1,21 @@
+uuid: 3dff7aea-90e9-4a04-8eb3-d09d50d984eb
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_acerca_de_mi
+    - node.type.informacion
+  module:
+    - text
+id: node.informacion.field_acerca_de_mi
+field_name: field_acerca_de_mi
+entity_type: node
+bundle: informacion
+label: 'Acerca de mi'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

@@ -1,0 +1,19 @@
+uuid: a4b67261-4f2d-4bb0-813d-c210c420dc2b
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.titulo_diseno
+  module:
+    - user
+id: node.titulo_diseno.default
+targetEntityType: node
+bundle: titulo_diseno
+mode: default
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

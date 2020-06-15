@@ -1,0 +1,47 @@
+uuid: f3b6129e-3e12-4dae-984e-46badf7d1297
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.sitios_web.field_descripcion_del_trabajo
+    - field.field.node.sitios_web.field_imagen_
+    - field.field.node.sitios_web.field_titulo
+    - node.type.sitios_web
+  module:
+    - image
+    - text
+    - user
+id: node.sitios_web.default
+targetEntityType: node
+bundle: sitios_web
+mode: default
+content:
+  field_descripcion_del_trabajo:
+    weight: 103
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_imagen_:
+    weight: 102
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_titulo:
+    weight: 101
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

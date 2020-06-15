@@ -1,0 +1,24 @@
+uuid: b0810c35-a30f-4143-adc1-b2df0247329b
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.trabajos
+  module:
+    - views
+  theme:
+    - bootstrap_mint
+id: views_block__trabajos_block_1
+theme: bootstrap_mint
+region: topwidget_left
+weight: -8
+provider: null
+plugin: 'views_block:trabajos-block_1'
+settings:
+  id: 'views_block:trabajos-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

@@ -1,0 +1,21 @@
+uuid: 11cc5418-e46e-4f95-b5b8-ded9d67437f7
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_habilidades_diseno
+    - node.type.habilidades
+  module:
+    - text
+id: node.habilidades.field_habilidades_diseno
+field_name: field_habilidades_diseno
+entity_type: node
+bundle: habilidades
+label: 'Habilidades Diseño'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

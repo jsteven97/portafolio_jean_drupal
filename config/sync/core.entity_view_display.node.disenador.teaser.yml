@@ -1,0 +1,30 @@
+uuid: c7ede1d4-2892-4a14-ae10-211f9c5f6142
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.disenador.body
+    - node.type.disenador
+  module:
+    - text
+    - user
+id: node.disenador.teaser
+targetEntityType: node
+bundle: disenador
+mode: teaser
+content:
+  body:
+    label: hidden
+    type: text_summary_or_trimmed
+    weight: 101
+    settings:
+      trim_length: 600
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

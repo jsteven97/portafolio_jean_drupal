@@ -1,0 +1,147 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/node\/28?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/pasatiempos"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/pasatiempos\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/pasatiempos\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "22a7ff62-aa44-4018-bc17-613f8fbfef6f"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "pasatiempos"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-06-15T18:03:35+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/pasatiempos\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ed8fd26e-5cfb-454d-bbb2-6e43b4bb99bc"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/pasatiempos\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ed8fd26e-5cfb-454d-bbb2-6e43b4bb99bc"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Pasatiempos",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-06-15T17:58:28+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-06-15T18:03:35+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "body": [
+        {
+            "value": "<p>Soy una persona activa que le gusta realizar actividad f\u00edsica de forma regular, tambi\u00e9n me gusta incorporarme en proyectos creativos en donde pongo a prueba mi conocimiento y habilidades de dise\u00f1o, pero entre mis pasatiempos favoritos est\u00e1 el jugar videojuegos y escuchar m\u00fasica de todo tipo, tambi\u00e9n me gusta ver series y mantenerme al d\u00eda con noticias referentes a las tecnolog\u00edas.<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p>Soy una persona activa que le gusta realizar actividad f\u00edsica de forma regular, tambi\u00e9n me gusta incorporarme en proyectos creativos en donde pongo a prueba mi conocimiento y habilidades de dise\u00f1o, pero entre mis pasatiempos favoritos est\u00e1 el jugar videojuegos y escuchar m\u00fasica de todo tipo, tambi\u00e9n me gusta ver series y mantenerme al d\u00eda con noticias referentes a las tecnolog\u00edas.<\/p>",
+            "summary": "",
+            "lang": "en"
+        }
+    ]
+}

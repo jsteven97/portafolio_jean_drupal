@@ -1,0 +1,28 @@
+uuid: 32dae047-a282-4c4e-98e7-75eba7eb1a1a
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.informacion.field_acerca_de_mi
+    - node.type.informacion
+  module:
+    - text
+    - user
+id: node.informacion.default
+targetEntityType: node
+bundle: informacion
+mode: default
+content:
+  field_acerca_de_mi:
+    weight: 101
+    label: hidden
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  links:
+    weight: 100
+    region: content
+    settings: {  }
+    third_party_settings: {  }
+hidden: {  }

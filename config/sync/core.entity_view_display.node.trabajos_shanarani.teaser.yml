@@ -1,0 +1,26 @@
+uuid: 458d309e-f87f-41bc-9b29-e2b5c4e86d21
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.trabajos_shanarani.field_descripcion_del_trabajo
+    - field.field.node.trabajos_shanarani.field_imagen_
+    - field.field.node.trabajos_shanarani.field_titulo
+    - node.type.trabajos_shanarani
+  module:
+    - user
+id: node.trabajos_shanarani.teaser
+targetEntityType: node
+bundle: trabajos_shanarani
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_descripcion_del_trabajo: true
+  field_imagen_: true
+  field_titulo: true

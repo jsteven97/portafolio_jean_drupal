@@ -1,0 +1,22 @@
+uuid: aa0cf740-558b-40f3-93d0-da65a25f7c62
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.informacion
+id: node.informacion.status
+field_name: status
+entity_type: node
+bundle: informacion
+label: Published
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

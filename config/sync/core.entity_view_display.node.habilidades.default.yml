@@ -1,0 +1,36 @@
+uuid: 89fd4ff1-5571-47eb-b09d-a9bb3c12032f
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.habilidades.field_habilidades_diseno
+    - field.field.node.habilidades.field_habilidades_progra
+    - node.type.habilidades
+  module:
+    - text
+    - user
+id: node.habilidades.default
+targetEntityType: node
+bundle: habilidades
+mode: default
+content:
+  field_habilidades_diseno:
+    weight: 101
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_habilidades_progra:
+    weight: 102
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

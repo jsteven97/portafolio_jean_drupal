@@ -1,0 +1,178 @@
+{
+    "_links": {
+        "self": {
+            "href": "http:\/\/default\/node\/21?_format=hal_json"
+        },
+        "type": {
+            "href": "http:\/\/drupal.org\/rest\/type\/node\/sitios_web"
+        },
+        "http:\/\/drupal.org\/rest\/relation\/node\/sitios_web\/revision_uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/sitios_web\/uid": [
+            {
+                "href": "http:\/\/default\/user\/1?_format=hal_json",
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/sitios_web\/field_imagen_": [
+            {
+                "href": "http:\/\/default\/sites\/default\/files\/2020-06\/sisy.jpg",
+                "lang": "en"
+            }
+        ]
+    },
+    "uuid": [
+        {
+            "value": "4c62159d-3362-4f3d-9112-1e34578ebe57"
+        }
+    ],
+    "langcode": [
+        {
+            "value": "en",
+            "lang": "en"
+        }
+    ],
+    "type": [
+        {
+            "target_id": "sitios_web"
+        }
+    ],
+    "revision_timestamp": [
+        {
+            "value": "2020-06-15T03:13:26+00:00",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "_embedded": {
+        "http:\/\/drupal.org\/rest\/relation\/node\/sitios_web\/revision_uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ed8fd26e-5cfb-454d-bbb2-6e43b4bb99bc"
+                    }
+                ]
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/sitios_web\/uid": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/user\/1?_format=hal_json"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/user\/user"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "ed8fd26e-5cfb-454d-bbb2-6e43b4bb99bc"
+                    }
+                ],
+                "lang": "en"
+            }
+        ],
+        "http:\/\/drupal.org\/rest\/relation\/node\/sitios_web\/field_imagen_": [
+            {
+                "_links": {
+                    "self": {
+                        "href": "http:\/\/default\/sites\/default\/files\/2020-06\/sisy.jpg"
+                    },
+                    "type": {
+                        "href": "http:\/\/drupal.org\/rest\/type\/file\/file"
+                    }
+                },
+                "uuid": [
+                    {
+                        "value": "0b066540-4cfa-42d1-a7f8-49abb2529b3c"
+                    }
+                ],
+                "lang": "en"
+            }
+        ]
+    },
+    "status": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "title": [
+        {
+            "value": "Sitio Sisy",
+            "lang": "en"
+        }
+    ],
+    "created": [
+        {
+            "value": "2020-06-15T03:12:52+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "changed": [
+        {
+            "value": "2020-06-15T03:25:47+00:00",
+            "lang": "en",
+            "format": "Y-m-d\\TH:i:sP"
+        }
+    ],
+    "promote": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "sticky": [
+        {
+            "value": false,
+            "lang": "en"
+        }
+    ],
+    "default_langcode": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "revision_translation_affected": [
+        {
+            "value": true,
+            "lang": "en"
+        }
+    ],
+    "path": [
+        {
+            "alias": null,
+            "pid": null,
+            "langcode": "en",
+            "lang": "en"
+        }
+    ],
+    "field_descripcion_del_trabajo": [
+        {
+            "value": "<p>Un sitio informativo para la empresa, Sysi Neurocosmetica Natural<\/p>\r\n",
+            "format": "basic_html",
+            "processed": "<p>Un sitio informativo para la empresa, Sysi Neurocosmetica Natural<\/p>",
+            "lang": "en"
+        }
+    ],
+    "field_titulo": [
+        {
+            "value": "<h2>Sisy Neurocosmetica Natural Site<\/h2>",
+            "format": "basic_html",
+            "processed": "<h2>Sisy Neurocosmetica Natural Site<\/h2>",
+            "lang": "en"
+        }
+    ]
+}

@@ -1,0 +1,17 @@
+uuid: bdee2540-6726-4c87-9ec5-d0254fee8f0e
+langcode: en
+status: true
+dependencies:
+  module:
+    - menu_ui
+third_party_settings:
+  menu_ui:
+    available_menus: {  }
+    parent: ''
+name: 'Trabajos Shanarani'
+type: trabajos_shanarani
+description: 'Trabajos realizados para la pyme Shanarani '
+help: ''
+new_revision: false
+preview_mode: 1
+display_submitted: false

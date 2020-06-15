@@ -1,0 +1,22 @@
+uuid: 752090ca-eb92-4c88-8315-0cdae4a1eb6d
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.titilo_de_paginas
+id: node.titilo_de_paginas.promote
+field_name: promote
+entity_type: node
+bundle: titilo_de_paginas
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

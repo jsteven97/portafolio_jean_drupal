@@ -1,0 +1,22 @@
+uuid: 18397430-a12a-4535-9f26-0ae39243de5b
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - field.field.node.informacion.field_acerca_de_mi
+    - node.type.informacion
+  module:
+    - user
+id: node.informacion.teaser
+targetEntityType: node
+bundle: informacion
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden:
+  field_acerca_de_mi: true

@@ -1,0 +1,22 @@
+uuid: 2d908fb2-58d5-4715-9987-7d16285aeab5
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.titulo_diseno
+id: node.titulo_diseno.promote
+field_name: promote
+entity_type: node
+bundle: titulo_diseno
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

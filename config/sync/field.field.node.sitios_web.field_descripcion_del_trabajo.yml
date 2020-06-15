@@ -1,0 +1,21 @@
+uuid: 31642844-f01d-4464-9f25-53833c7dd5ad
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_descripcion_del_trabajo
+    - node.type.sitios_web
+  module:
+    - text
+id: node.sitios_web.field_descripcion_del_trabajo
+field_name: field_descripcion_del_trabajo
+entity_type: node
+bundle: sitios_web
+label: 'Descripcion del trabajo'
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

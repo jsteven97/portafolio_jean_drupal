@@ -1,0 +1,21 @@
+uuid: 877db8b6-3a05-4dc1-b179-9e2fe3d03ea5
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_descripcion_del_trabajo
+    - node.type.portafolio_card
+  module:
+    - text
+id: node.portafolio_card.field_descripcion_del_trabajo
+field_name: field_descripcion_del_trabajo
+entity_type: node
+bundle: portafolio_card
+label: 'Descripcion del trabajo'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

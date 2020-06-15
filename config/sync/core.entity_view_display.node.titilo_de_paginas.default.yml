@@ -1,0 +1,19 @@
+uuid: a1fdf812-353c-4cb3-a55a-34f42b7bca15
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.titilo_de_paginas
+  module:
+    - user
+id: node.titilo_de_paginas.default
+targetEntityType: node
+bundle: titilo_de_paginas
+mode: default
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

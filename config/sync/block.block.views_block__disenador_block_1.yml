@@ -1,0 +1,24 @@
+uuid: 7f2684f7-f301-4c5e-a30c-e894564b08cb
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.disenador
+  module:
+    - views
+  theme:
+    - businessgroup_zymphonies_theme
+id: views_block__disenador_block_1
+theme: businessgroup_zymphonies_theme
+region: topwidget_second
+weight: 0
+provider: null
+plugin: 'views_block:disenador-block_1'
+settings:
+  id: 'views_block:disenador-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

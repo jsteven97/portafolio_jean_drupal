@@ -1,0 +1,21 @@
+uuid: 3da186cc-7341-4fc2-96cf-e84e50b38cbd
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_titulo
+    - node.type.sitios_web
+  module:
+    - text
+id: node.sitios_web.field_titulo
+field_name: field_titulo
+entity_type: node
+bundle: sitios_web
+label: Titulo
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

@@ -1,0 +1,24 @@
+uuid: a473d4ae-cc05-4424-bd3d-0f2768f54589
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.titulo_diseno
+  module:
+    - views
+  theme:
+    - bootstrap_mint
+id: views_block__titulo_diseno_block_1
+theme: bootstrap_mint
+region: slideshow
+weight: 0
+provider: null
+plugin: 'views_block:titulo_diseno-block_1'
+settings:
+  id: 'views_block:titulo_diseno-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

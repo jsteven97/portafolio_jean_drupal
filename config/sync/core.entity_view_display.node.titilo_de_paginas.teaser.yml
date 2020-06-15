@@ -1,0 +1,20 @@
+uuid: 1220ee8a-1abb-44ca-a8db-e31e814a3d21
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.titilo_de_paginas
+  module:
+    - user
+id: node.titilo_de_paginas.teaser
+targetEntityType: node
+bundle: titilo_de_paginas
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

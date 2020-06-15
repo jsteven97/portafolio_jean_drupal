@@ -1,0 +1,21 @@
+uuid: 10e9e4ed-41fc-4537-94d1-ac35f5262429
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_titulo
+    - node.type.trabajos_shanarani
+  module:
+    - text
+id: node.trabajos_shanarani.field_titulo
+field_name: field_titulo
+entity_type: node
+bundle: trabajos_shanarani
+label: Titulo
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text

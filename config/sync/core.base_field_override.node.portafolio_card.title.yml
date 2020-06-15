@@ -1,0 +1,18 @@
+uuid: 86bbd8e2-50cd-4832-8c12-b5d22e02d067
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.portafolio_card
+id: node.portafolio_card.title
+field_name: title
+entity_type: node
+bundle: portafolio_card
+label: Titlle
+description: ''
+required: true
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: string

@@ -1,0 +1,47 @@
+uuid: cac7a822-b4f0-4049-935e-bd0221607b81
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.trabajos_shanarani.field_descripcion_del_trabajo
+    - field.field.node.trabajos_shanarani.field_imagen_
+    - field.field.node.trabajos_shanarani.field_titulo
+    - node.type.trabajos_shanarani
+  module:
+    - image
+    - text
+    - user
+id: node.trabajos_shanarani.default
+targetEntityType: node
+bundle: trabajos_shanarani
+mode: default
+content:
+  field_descripcion_del_trabajo:
+    weight: 101
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  field_imagen_:
+    weight: 102
+    label: above
+    settings:
+      image_style: ''
+      image_link: ''
+    third_party_settings: {  }
+    type: image
+    region: content
+  field_titulo:
+    weight: 103
+    label: above
+    settings: {  }
+    third_party_settings: {  }
+    type: text_default
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

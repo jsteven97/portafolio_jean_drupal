@@ -1,0 +1,19 @@
+uuid: f70b7589-d6b4-428a-b590-d82a3aff87d5
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_habilidades_progra
+field_name: field_habilidades_progra
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

@@ -1,0 +1,24 @@
+uuid: f65b1291-ffdc-4911-8a0c-ce6440d0db96
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.foto_de_perfil
+  module:
+    - views
+  theme:
+    - businessgroup_zymphonies_theme
+id: views_block__foto_de_perfil_block_1_2
+theme: businessgroup_zymphonies_theme
+region: slideshow
+weight: 0
+provider: null
+plugin: 'views_block:foto_de_perfil-block_1'
+settings:
+  id: 'views_block:foto_de_perfil-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }

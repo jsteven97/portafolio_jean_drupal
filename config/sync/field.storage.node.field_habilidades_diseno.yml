@@ -1,0 +1,19 @@
+uuid: 4cfacc4c-b1d8-4657-9e72-d9e09e6368e4
+langcode: en
+status: true
+dependencies:
+  module:
+    - node
+    - text
+id: node.field_habilidades_diseno
+field_name: field_habilidades_diseno
+entity_type: node
+type: text_long
+settings: {  }
+module: text
+locked: false
+cardinality: 1
+translatable: true
+indexes: {  }
+persist_with_no_fields: false
+custom_storage: false

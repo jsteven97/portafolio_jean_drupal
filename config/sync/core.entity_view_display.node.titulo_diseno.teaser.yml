@@ -1,0 +1,20 @@
+uuid: 64b75c1a-8969-4038-928e-8077a7372133
+langcode: en
+status: true
+dependencies:
+  config:
+    - core.entity_view_mode.node.teaser
+    - node.type.titulo_diseno
+  module:
+    - user
+id: node.titulo_diseno.teaser
+targetEntityType: node
+bundle: titulo_diseno
+mode: teaser
+content:
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

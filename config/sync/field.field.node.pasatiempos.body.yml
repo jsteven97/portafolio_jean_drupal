@@ -1,0 +1,23 @@
+uuid: fc9a4fbf-84b2-43f7-bb23-0992b923b874
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.body
+    - node.type.pasatiempos
+  module:
+    - text
+id: node.pasatiempos.body
+field_name: body
+entity_type: node
+bundle: pasatiempos
+label: Body
+description: ''
+required: false
+translatable: true
+default_value: {  }
+default_value_callback: ''
+settings:
+  display_summary: true
+  required_summary: false
+field_type: text_with_summary

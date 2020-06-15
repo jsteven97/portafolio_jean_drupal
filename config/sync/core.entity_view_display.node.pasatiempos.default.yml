@@ -1,0 +1,28 @@
+uuid: 0fdbfce5-992c-415c-a860-8b0133ef0bd6
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.field.node.pasatiempos.body
+    - node.type.pasatiempos
+  module:
+    - text
+    - user
+id: node.pasatiempos.default
+targetEntityType: node
+bundle: pasatiempos
+mode: default
+content:
+  body:
+    label: hidden
+    type: text_default
+    weight: 101
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+  links:
+    weight: 100
+    settings: {  }
+    third_party_settings: {  }
+    region: content
+hidden: {  }

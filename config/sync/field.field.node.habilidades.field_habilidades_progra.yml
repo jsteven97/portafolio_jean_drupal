@@ -1,0 +1,21 @@
+uuid: 3e8ee723-47fc-43ce-9672-4221894da918
+langcode: en
+status: true
+dependencies:
+  config:
+    - field.storage.node.field_habilidades_progra
+    - node.type.habilidades
+  module:
+    - text
+id: node.habilidades.field_habilidades_progra
+field_name: field_habilidades_progra
+entity_type: node
+bundle: habilidades
+label: 'Habilidades Progra'
+description: ''
+required: false
+translatable: false
+default_value: {  }
+default_value_callback: ''
+settings: {  }
+field_type: text_long

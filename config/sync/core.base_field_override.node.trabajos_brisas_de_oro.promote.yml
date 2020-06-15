@@ -1,0 +1,22 @@
+uuid: 705f7095-740d-4f0b-bcac-c0244ad0d169
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.trabajos_brisas_de_oro
+id: node.trabajos_brisas_de_oro.promote
+field_name: promote
+entity_type: node
+bundle: trabajos_brisas_de_oro
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

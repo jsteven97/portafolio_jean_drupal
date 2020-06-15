@@ -1,0 +1,22 @@
+uuid: 30bb1e02-ac53-44a5-9ce4-80a8d5571ffb
+langcode: en
+status: true
+dependencies:
+  config:
+    - node.type.sitios_web
+id: node.sitios_web.promote
+field_name: promote
+entity_type: node
+bundle: sitios_web
+label: 'Promoted to front page'
+description: ''
+required: false
+translatable: true
+default_value:
+  -
+    value: 0
+default_value_callback: ''
+settings:
+  on_label: 'On'
+  off_label: 'Off'
+field_type: boolean

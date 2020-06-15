@@ -1,0 +1,24 @@
+uuid: e0ab5a56-ad8e-43fb-a8f6-c741f2f19660
+langcode: en
+status: true
+dependencies:
+  config:
+    - views.view.trabajos_shanarani
+  module:
+    - views
+  theme:
+    - bootstrap_mint
+id: views_block__trabajos_shanarani_block_1
+theme: bootstrap_mint
+region: topwidget_middle
+weight: 0
+provider: null
+plugin: 'views_block:trabajos_shanarani-block_1'
+settings:
+  id: 'views_block:trabajos_shanarani-block_1'
+  label: ''
+  provider: views
+  label_display: visible
+  views_label: ''
+  items_per_page: none
+visibility: {  }
